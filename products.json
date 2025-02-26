@@ -1,0 +1,439 @@
+[
+    {
+     "_id": 1,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 1200,
+      "quantitySold": 10,
+      "tags": ["tech", "office"],
+      "lastSaleDate": "2024-01-15",
+      "region": ["Bangalore", "Ahmedabad","Russia"]
+    },
+    {
+     "_id": 2,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 800,
+      "quantitySold": 20,
+      "tags": ["tech", "mobile"],
+      "lastSaleDate": "2024-02-10",
+      "region": ["Mumbai", "Delhi","Russia"]
+    },
+    {
+     "_id": 3,
+      "name": "Table",
+      "category": "Furniture",
+      "price": 300,
+      "quantitySold": 5,
+      "tags": ["wood", "home"],
+      "lastSaleDate": "2024-03-12",
+      "region": ["Indore","Ujjain"]
+    },
+    {
+     "_id": 4,
+      "name": "Chair",
+      "category": "Furniture",
+      "price": 150,
+      "quantitySold": 15,
+      "tags": ["wood", "office"],
+      "lastSaleDate": "2023-12-01",
+      "region": ["Indore", "Ujjain"]
+    },
+    {
+     "_id": 5,
+      "name": "Headphones",
+      "category": "Electronics",
+      "price": 200,
+      "quantitySold": 30,
+      "tags": ["audio", "tech"],
+      "lastSaleDate": "2024-04-05",
+      "region": ["Bangalore","Ahmedabad"]
+    },
+    {
+     "_id": 6,
+      "name": "Sofa",
+      "category": "Furniture",
+      "price": 700,
+      "quantitySold": 8,
+      "tags": ["home", "luxury"],
+      "lastSaleDate": "2024-02-20",
+      "region": ["Chennai","London"]
+    },
+    {
+     "_id": 7,
+      "name": "Refrigerator",
+      "category": "Appliances",
+      "price": 1500,
+      "quantitySold": 12,
+      "tags": ["kitchen", "home"],
+      "lastSaleDate": "2024-03-28",
+      "region": ["America"]
+    },
+    {
+     "_id": 8,
+      "name": "Microwave",
+      "category": "Appliances",
+      "price": 500,
+      "quantitySold": 25,
+      "tags": ["kitchen", "cooking"],
+      "lastSaleDate": "2024-02-15",
+      "region": ["Asia", "Europe"]
+    },
+    {
+        "_id":9,
+        "name":"Bat",
+        "category":"Sports",
+        "price":1100,
+        "quantitySold":25,
+        "tags" :["cricket","sports"],
+        "lastSaleDate" : "2025-02-25",
+        "region":["AndhraPradesh","Himachal"]
+    },
+    {
+        "_id":10,
+        "name":"Ball",
+        "category":"Sports",
+        "price":40,
+        "quantitySold":75,
+        "tags" :["cricket","sports"],
+        "lastSaleDate" : "2025-07-15",
+        "region":["Karnataka,Mumbai"]
+    },
+    {
+        "_id":11,
+        "name":"Gloves",
+        "category":"Sports",
+        "price":50,
+        "quantitySold":34,
+        "tags" :["cricket","sports"],
+        "lastSaleDate" : "2025-06-19",
+        "region":["Delhi","Punjab"]
+    },
+    {
+        "_id":12,
+        "name":"ChestGuard",
+        "category":"Sports",
+        "price":700,
+        "quantitySold":25,
+        "tags" :["cricket","sports"],
+        "lastSaleDate" : "2025-02-25",
+        "region":["JammuKashmir"]
+    },
+    {
+       "_id": 13,
+        "name": "Coke",
+        "category": "Beverages",
+        "price": 10,
+        "quantitySold": 1300,
+        "tags": ["Beverages", "coke","coldrink"],
+        "lastSaleDate": "2024-03-12",
+        "region": ["Surat","Ahmedabad"]
+      },
+      {
+       "_id":14,
+        "name": "Watch",
+        "category": "Accessories",
+        "price": 1500,
+        "quantitySold": 15,
+        "tags": ["watch", "luxury","accessory","titan"],
+        "lastSaleDate": "2022-01-21",
+        "region": ["Bangalore", "Surat"]
+      },
+      {
+       "_id":15,
+        "name": "Serpenti Ring",
+        "category": "Accessories",
+        "price": 2000,
+        "quantitySold": 13,
+        "tags": ["luxury", "titan"],
+        "lastSaleDate": "2025-01-12",
+        "region": ["Surat","JammuKashmir","Chennai","Europe"]
+      },
+      {
+       "_id":16,
+        "name": "Mansion",
+        "category": "Home",
+        "price": 70000,
+        "quantitySold": 1,
+        "tags": ["home", "luxury"],
+        "lastSaleDate": "2019-02-20",
+        "region": ["Powai","Hiranandani","USA","UK"]
+      },
+      {
+       "_id":17,
+        "name": "Bunglow",
+        "category": "Home",
+        "price": 150000,
+        "quantitySold": 2,
+        "tags": ["luxury", "home","necessary"],
+        "lastSaleDate": "2024-03-28",
+        "region": ["Powai","Hiranandani","USA","UK"]
+      },
+      {
+        "_id":18,
+        "name": "Yacht",
+        "category": "Luxury",
+        "price": 250000,
+        "quantitySold": 2,
+        "tags": ["luxury", "ship","sail"],
+        "lastSaleDate": "2024-02-15",
+        "region": ["London", "Europe","Bali","Maldives"]
+      },
+      {
+        "_id":19,
+        "name":"Private_Jets",
+        "category":"Luxury",
+        "price":545000,
+        "quantitySold":5,
+        "tags" :["luxury"],
+        "lastSaleDate" : "2025-02-25",
+        "region":["Russia","USA","UK","SouthAmerica"]
+      },
+      {
+          "_id":20,
+          "name":"Helicopters",
+          "category":"Luxury",
+          "price":40,
+          "quantitySold":75,
+          "tags" :["luxury","private"],
+          "lastSaleDate" : "2025-07-15",
+          "region":["JammuKashmir","Delhi","Kolkata","USA"]
+      },
+    {
+        "_id": 21,
+        "name": "Gaming Console",
+        "category": "Electronics",
+        "price": 500,
+        "quantitySold": 18,
+        "tags": ["gaming", "tech"],
+        "lastSaleDate": "2025-01-10",
+        "region": ["Tokyo", "New York", "London"]
+    },
+    {
+        "_id": 22,
+        "name": "Air Conditioner",
+        "category": "Appliances",
+        "price": 1200,
+        "quantitySold": 22,
+        "tags": ["cooling", "home"],
+        "lastSaleDate": "2024-06-30",
+        "region": ["Dubai", "Mumbai", "Chennai"]
+    },
+    {
+        "_id": 23,
+        "name": "Smart TV",
+        "category": "Electronics",
+        "price": 1000,
+        "quantitySold": 40,
+        "tags": ["entertainment", "tech"],
+        "lastSaleDate": "2024-11-12",
+        "region": ["Los Angeles", "Singapore", "Delhi"]
+    },
+    {
+        "_id": 24,
+        "name": "Dining Table",
+        "category": "Furniture",
+        "price": 800,
+        "quantitySold": 6,
+        "tags": ["wood", "home"],
+        "lastSaleDate": "2024-05-15",
+        "region": ["Pune", "Hyderabad", "Bangalore"]
+    },
+    {
+        "_id": 25,
+        "name": "Running Shoes",
+        "category": "Sports",
+        "price": 120,
+        "quantitySold": 55,
+        "tags": ["sports", "fitness"],
+        "lastSaleDate": "2024-09-10",
+        "region": ["Berlin", "Sydney", "New York"]
+    },
+    {
+        "_id": 26,
+        "name": "Drone",
+        "category": "Electronics",
+        "price": 2500,
+        "quantitySold": 8,
+        "tags": ["aerial", "tech"],
+        "lastSaleDate": "2025-03-05",
+        "region": ["San Francisco", "Dubai", "London"]
+    },
+    {
+        "_id": 27,
+        "name": "Coffee Machine",
+        "category": "Appliances",
+        "price": 300,
+        "quantitySold": 19,
+        "tags": ["kitchen", "coffee"],
+        "lastSaleDate": "2024-12-20",
+        "region": ["Paris", "Chicago", "Mumbai"]
+    },
+    {
+        "_id": 28,
+        "name": "Gold Necklace",
+        "category": "Accessories",
+        "price": 5000,
+        "quantitySold": 7,
+        "tags": ["luxury", "jewelry"],
+        "lastSaleDate": "2025-04-01",
+        "region": ["Dubai", "New York", "Mumbai"]
+    },
+    {
+        "_id": 29,
+        "name": "Electric Scooter",
+        "category": "Vehicles",
+        "price": 1500,
+        "quantitySold": 30,
+        "tags": ["eco-friendly", "transport"],
+        "lastSaleDate": "2024-10-05",
+        "region": ["Amsterdam", "Seoul", "Bangalore"]
+    },
+    {
+        "_id": 30,
+        "name": "Projector",
+        "category": "Electronics",
+        "price": 700,
+        "quantitySold": 14,
+        "tags": ["office", "entertainment"],
+        "lastSaleDate": "2024-07-22",
+        "region": ["London", "Tokyo", "Delhi"]
+    },
+    {
+        "_id": 31,
+        "name": "Motorcycle",
+        "category": "Vehicles",
+        "price": 8000,
+        "quantitySold": 5,
+        "tags": ["transport", "speed"],
+        "lastSaleDate": "2024-06-17",
+        "region": ["Bangkok", "Berlin", "New York"]
+    },
+    {
+        "_id": 32,
+        "name": "Smartwatch",
+        "category": "Electronics",
+        "price": 300,
+        "quantitySold": 45,
+        "tags": ["wearable", "tech"],
+        "lastSaleDate": "2025-01-30",
+        "region": ["San Francisco", "Mumbai", "Tokyo"]
+    },
+    {
+        "_id": 33,
+        "name": "Perfume",
+        "category": "Luxury",
+        "price": 150,
+        "quantitySold": 65,
+        "tags": ["fragrance", "fashion"],
+        "lastSaleDate": "2025-02-14",
+        "region": ["Paris", "Milan", "Dubai"]
+    },
+    {
+        "_id": 34,
+        "name": "Luxury Car",
+        "category": "Luxury",
+        "price": 120000,
+        "quantitySold": 3,
+        "tags": ["luxury", "automobile"],
+        "lastSaleDate": "2025-06-05",
+        "region": ["Monaco", "Los Angeles", "Dubai"]
+    },
+    {
+        "_id": 35,
+        "name": "Bicycle",
+        "category": "Vehicles",
+        "price": 500,
+        "quantitySold": 25,
+        "tags": ["fitness", "eco-friendly"],
+        "lastSaleDate": "2024-08-18",
+        "region": ["Copenhagen", "Amsterdam", "Seoul"]
+    },
+    {
+        "_id": 36,
+        "name": "Smart Lights",
+        "category": "Home",
+        "price": 100,
+        "quantitySold": 80,
+        "tags": ["tech", "home"],
+        "lastSaleDate": "2024-11-25",
+        "region": ["Shanghai", "Dubai", "London"]
+    },
+    {
+        "_id": 37,
+        "name": "Treadmill",
+        "category": "Fitness",
+        "price": 1200,
+        "quantitySold": 12,
+        "tags": ["exercise", "health"],
+        "lastSaleDate": "2025-03-15",
+        "region": ["New York", "Sydney", "Berlin"]
+    },
+    {
+        "_id": 38,
+        "name": "VR Headset",
+        "category": "Electronics",
+        "price": 400,
+        "quantitySold": 20,
+        "tags": ["gaming", "tech"],
+        "lastSaleDate": "2025-05-01",
+        "region": ["San Francisco", "Tokyo", "Seoul"]
+    },
+    {
+        "_id": 39,
+        "name": "Handbag",
+        "category": "Fashion",
+        "price": 350,
+        "quantitySold": 40,
+        "tags": ["luxury", "accessory"],
+        "lastSaleDate": "2025-04-18",
+        "region": ["Paris", "London", "Milan"]
+    },
+    {
+        "_id": 40,
+        "name": "E-Reader",
+        "category": "Electronics",
+        "price": 250,
+        "quantitySold": 22,
+        "tags": ["reading", "tech"],
+        "lastSaleDate": "2024-12-10",
+        "region": ["New York", "Tokyo", "Sydney"]
+    },
+    {
+        "_id": 41, 
+        "name": "SUV", 
+        "category": "Vehicle", 
+        "price": 25001, 
+        "quantitySold": 12, 
+        "tags": ["off-road", "family"], 
+        "lastSaleDate": "2024-06-21", 
+        "region": ["New York", "Dubai", "Tokyo"]
+    },
+    {"_id": 42, "name": "Electric Car", "category": "Vehicle", "price": 34000, "quantitySold": 8, "tags": ["eco-friendly", "innovation"], "lastSaleDate": "2024-08-30", "region": ["Los Angeles", "Berlin", "Shanghai"]},
+    {"_id": 43, "name": "Convertible", "category": "Vehicle", "price": 75001, "quantitySold": 3, "tags": ["luxury", "speed"], "lastSaleDate": "2025-02-10", "region": ["Monaco", "Paris", "Miami"]},
+    {"_id": 44, "name": "Truck", "category": "Vehicle", "price": 42000, "quantitySold": 5, "tags": ["heavy-duty", "transport"], "lastSaleDate": "2024-11-12", "region": ["Texas", "Mumbai", "London"]},
+    {"_id": 45, "name": "Sports Bike", "category": "Vehicle", "price": 19001, "quantitySold": 15, "tags": ["racing", "speed"], "lastSaleDate": "2024-07-15", "region": ["Bangkok", "Rome", "Seoul"]},
+    {"_id": 46, "name": "Yacht", "category": "Vehicle", "price": 110000, "quantitySold": 2, "tags": ["luxury", "ocean"], "lastSaleDate": "2025-03-20", "region": ["Maldives", "Bali", "Greece"]},
+    {"_id": 47, "name": "Cold Coffee", "category": "Beverages", "price": 99, "quantitySold": 1300, "tags": ["cold", "refreshing"], "lastSaleDate": "2024-06-05", "region": ["Delhi", "Mumbai", "New York"]},
+    {"_id": 48, "name": "Soda", "category": "Beverages", "price": 60, "quantitySold": 900, "tags": ["soft drink", "carbonated"], "lastSaleDate": "2025-01-14", "region": ["Chicago", "Sydney", "London"]},
+    {"_id": 49, "name": "Fruit Juice", "category": "Beverages", "price": 129, "quantitySold": 600, "tags": ["organic", "natural"], "lastSaleDate": "2024-09-10", "region": ["Tokyo", "Berlin", "San Francisco"]},
+    {"_id": 50, "name": "Green Tea", "category": "Beverages", "price": 200, "quantitySold": 500, "tags": ["healthy", "antioxidant"], "lastSaleDate": "2024-12-22", "region": ["Shanghai", "Seoul", "Toronto"]},
+    {"_id": 51, "name": "Lemonade", "category": "Beverages", "price": 59, "quantitySold": 800, "tags": ["summer", "refreshing"], "lastSaleDate": "2024-06-11", "region": ["Miami", "Bangkok", "Dubai"]},
+    {"_id": 52, "name": "Iced Tea", "category": "Beverages", "price": 120, "quantitySold": 700, "tags": ["cold", "flavored"], "lastSaleDate": "2025-02-05", "region": ["Paris", "New York", "Mumbai"]},
+    {"_id": 53, "name": "Energy Drink", "category": "Beverages", "price": 179, "quantitySold": 400, "tags": ["boost", "sports"], "lastSaleDate": "2024-10-10", "region": ["California", "Texas", "Toronto"]},
+    {"_id": 54, "name": "Designer T-Shirt", "category": "Fashion", "price": 299, "quantitySold": 200, "tags": ["casual", "trendy"], "lastSaleDate": "2024-08-30", "region": ["London", "New York", "Paris"]},
+    {"_id": 55, "name": "Luxury Watch", "category": "Fashion", "price": 5001, "quantitySold": 50, "tags": ["luxury", "status"], "lastSaleDate": "2025-01-05", "region": ["Geneva", "Dubai", "Monaco"]},
+    {"_id": 56, "name": "Jeans", "category": "Fashion", "price": 1200, "quantitySold": 180, "tags": ["denim", "comfortable"], "lastSaleDate": "2024-09-12", "region": ["Berlin", "Amsterdam", "Chicago"]},
+    {"_id": 57, "name": "Sunglasses", "category": "Fashion", "price": 1501, "quantitySold": 90, "tags": ["stylish", "UV-protection"], "lastSaleDate": "2025-03-08", "region": ["Los Angeles", "Sydney", "Bangkok"]},
+    {"_id": 58, "name": "Sneakers", "category": "Fashion", "price": 4000, "quantitySold": 220, "tags": ["sporty", "trendy"], "lastSaleDate": "2024-07-29", "region": ["Tokyo", "Shanghai", "Milan"]},
+    {"_id": 59, "name": "Formal Suit", "category": "Fashion", "price": 5501, "quantitySold": 40, "tags": ["business", "elegant"], "lastSaleDate": "2024-12-01", "region": ["London", "Paris", "New York"]},
+    {"_id": 60, "name": "Leather Belt", "category": "Fashion", "price": 800, "quantitySold": 160, "tags": ["accessory", "classic"], "lastSaleDate": "2025-01-19", "region": ["Rome", "Chicago", "Tokyo"]},
+    {"_id": 61, "name": "Handbag", "category": "Fashion", "price": 3501, "quantitySold": 85, "tags": ["luxury", "accessory"], "lastSaleDate": "2024-10-17", "region": ["Paris", "London", "Dubai"]},
+    {"_id": 62, "name": "Designer Jacket", "category": "Fashion", "price": 6200, "quantitySold": 70, "tags": ["winter", "luxury"], "lastSaleDate": "2024-11-22", "region": ["New York", "Berlin", "Toronto"]},
+    {"_id": 63, "name": "Premium Perfume", "category": "Fashion", "price": 7001, "quantitySold": 110, "tags": ["fragrance", "elegance"], "lastSaleDate": "2024-08-08", "region": ["Paris", "Dubai", "Los Angeles"]},
+    {"_id": 64, "name": "Scarf", "category": "Fashion", "price": 400, "quantitySold": 300, "tags": ["winter", "stylish"], "lastSaleDate": "2024-09-14", "region": ["Rome", "Chicago", "Tokyo"]},
+    {"_id": 65, "name": "High Heels", "category": "Fashion", "price": 9999, "quantitySold": 60, "tags": ["elegant", "fashion"], "lastSaleDate": "2025-01-27", "region": ["Paris", "Milan", "London"]},
+    {"_id": 66, "name": "Silk Tie", "category": "Fashion", "price": 1500, "quantitySold": 130, "tags": ["formal", "luxury"], "lastSaleDate": "2024-06-23", "region": ["New York", "Dubai", "Sydney"]}
+
+]
+    

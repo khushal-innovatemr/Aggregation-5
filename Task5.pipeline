@@ -1,0 +1,84 @@
+//Task 4
+[
+  {
+    $unwind: "$region",
+  },
+  {
+    $group: {
+      _id: "$_id",
+      name: {
+        $first: "$name",
+      },
+      price: {
+        $first: "$price",
+      },
+      quantitySold: {
+        $first: "$quantitySold",
+      },
+      region_count: {
+        $sum: 1,
+      },
+      regions: {
+        $push: "$region",
+      },
+    },
+  },
+  {
+    $match: {
+      region_count: {
+        $gt: 2,
+      },
+    },
+  },
+  {
+    $lookup: {
+      from: "reviews",
+      localField: "_id",
+      foreignField: "productId",
+      as: "reviews",
+    },
+  },
+  {
+    $unwind: "$reviews",
+  },
+  {
+    $group: {
+      _id: "$_id",
+      region_count: {
+        $first: "$region_count",
+      },
+      name: {
+        $first: "$name",
+      },
+      regions: {
+        $first: "$regions",
+      },
+      Revenue: {
+        $first: {
+          $multiply: ["$price", "$quantitySold"],
+        },
+      },
+      avg_rating: {
+        $avg: "$reviews.rating",
+      },
+    },
+  },
+  {
+    $sort: {
+      Revenue: -1,
+    },
+  },
+  {
+    $limit: 5,
+  },
+  {
+    $project: {
+      name: 1,
+      Revenue: 1,
+      avg_rate: {
+        $avg: "$avg_rating",
+      },
+      region_count: 1,
+    },
+  },
+]

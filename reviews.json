@@ -1,0 +1,38 @@
+[
+    {
+      "productId": 1,
+      "rating": 4.5,
+      "comment": "Excellent performance!"
+    },
+    {
+      "productId": 2,
+      "rating": 4.2,
+      "comment": "value for money."
+    },
+    {
+      "productId": 3,
+      "rating": 4.0,
+      "comment": "Nice"
+    },
+    {
+      "productId": 5,
+      "rating": 4.8,
+      "comment": "Great quality!"
+    },
+    {
+      "productId": 6,
+      "rating": 4.3,
+      "comment": "stylish."
+    },
+    {
+      "productId": 7,
+      "rating": 4.7,
+      "comment": "fresh!"
+    },
+    {
+      "productId": 8,
+      "rating": 4.1,
+      "comment": "luxurious."
+    }
+  ]
+  

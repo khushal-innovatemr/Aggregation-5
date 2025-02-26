@@ -1,0 +1,45 @@
+//Task 3 pipeline
+[
+      {
+        $group: {
+          _id: "$category",
+          avg: {
+            $avg: "$price",
+          },
+          count: {
+            $sum: 1,
+          },
+        },
+      },
+      {
+        $match: {
+          count: {
+            $gte: 5,
+          },
+        },
+      },
+      {
+        $sort: {
+          avg: -1,
+        },
+      },
+      {
+        $limit: 3,
+      },
+      {
+        $project:
+        {
+          Average_Price:
+          {
+            $round: ["$avg", 2],
+          }
+        },
+      },
+      {
+        $project: {
+          category: "$_id",
+          Average_Price: 1,
+          _id: 0
+        }
+      }
+    ]

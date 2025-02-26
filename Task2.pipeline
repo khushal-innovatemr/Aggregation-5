@@ -1,0 +1,32 @@
+//Task2
+[
+      {
+        $match: {
+          price: {
+            $gt: 50,
+          },
+        },
+      },
+      {
+        $group: {
+          _id: "$category",
+          totalSales: {
+            $sum: {
+              $multiply: ["$price", "$quantitySold"],
+            },
+          },
+        },
+      },
+      {
+        $sort: {
+          totalSales: -1,
+        },
+      },
+      {
+        $project: {
+          category: "$_id",
+          totalSales: 1,
+          _id: 0,
+        },
+      },
+]

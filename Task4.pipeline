@@ -1,0 +1,38 @@
+//Task 4
+[
+      {
+        $match: {
+          lastSaleDate: {
+            $gte: new Date("2024-01-01"),
+            $lt: new Date("2024-12-31"),
+          },
+        },
+      },
+      {
+        $unwind: "$tags",
+      },
+      {
+        $group: {
+          _id: "$tags",
+          Product_Count: {
+            $sum: 1,
+          },
+          Total_Sold: {
+            $sum: "$quantitySold",
+          },
+        },
+      },
+      {
+        $match: {
+          _id: "luxury",
+        },
+      },
+      {
+        $project: {
+          Special_Tag: "$_id",
+          Product_Count: 1,
+          Total_Sold: 1,
+          _id: 0
+        }
+      }
+    ]
